@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+.container{
+    border: 2px solid black;
+    min-height: 100vh;
+    background-color: crimson;
+    background-image: linear-gradient(to bottom,crimson,black);
+    margin-bottom: 50px;
+}
+
+form{
+    padding-top: 20px;
+    margin-top: 30px;
+    max-width: 5000px;
+}
+
+label{
+    display: block;
+}
+
+input{
+    display: block;
+}
+
+.box{
+   background-image:linear-gradient(to right bottom, crimson, black,crimson) ;
+   min-width: 20vh;
+   margin: auto auto;
+   padding-left: 6px;
+   max-width: 30vh
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* button{
+    
+} */
